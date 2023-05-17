@@ -89,10 +89,18 @@ export default function Navbar() {
         </div>
         {/* mobile menu */}
         <div className={`${mobile ? '' : 'hidden '} md:hidden`}>
-          <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-200">
+          <a
+            href="#"
+            className="block py-2 px-4 text-sm hover:bg-gray-200"
+            onClick={handleMobile}
+          >
             Features
           </a>
-          <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-200">
+          <a
+            href="#"
+            className="block py-2 px-4 text-sm hover:bg-gray-200"
+            onClick={handleMobile}
+          >
             Pricing
           </a>
         </div>
