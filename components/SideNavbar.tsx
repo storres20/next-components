@@ -94,3 +94,9 @@ export default function SideNavbar() {
     </div>
   )
 }
+
+/* youtube tutorial
+https://www.youtube.com/watch?v=V9v4GRMyzO4
+Create a Side Nav with Tailwind - And It's Responsive!
+DigitalOcean channel
+*/
