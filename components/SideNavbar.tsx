@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Link from 'next/link'
 
 export default function SideNavbar() {
   const [mobile, setMobile] = useState(false)
@@ -62,18 +63,18 @@ export default function SideNavbar() {
         </a>
         {/* nav */}
         <nav>
-          <a
-            href="#"
+          <Link
+            href="/"
             className="block py-2 5 px-4 rounded transition duration-200 hover:bg-blue-700 hover:text-white"
           >
             Home
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="/NavbarPage"
             className="block py-2 5 px-4 rounded transition duration-200 hover:bg-blue-700 hover:text-white"
           >
-            About
-          </a>
+            NavbarPage
+          </Link>
           <a
             href="#"
             className="block py-2 5 px-4 rounded transition duration-200 hover:bg-blue-700 hover:text-white"

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Link from 'next/link'
 
 export default function Navbar() {
   const [mobile, setMobile] = useState(false)
@@ -39,18 +40,18 @@ export default function Navbar() {
               </div>
               {/* primary nav */}
               <div className="hidden md:flex items-center space-x-1">
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="py-5 px-3 text-gray-700 hover:text-gray-900"
                 >
-                  Features
-                </a>
-                <a
-                  href="#"
+                  Home
+                </Link>
+                <Link
+                  href="/SideNavbarPage"
                   className="py-5 px-3 text-gray-700 hover:text-gray-900"
                 >
-                  Pricing
-                </a>
+                  SideNavbarPage
+                </Link>
               </div>
             </div>
             {/* secundary nav */}
@@ -89,20 +90,20 @@ export default function Navbar() {
         </div>
         {/* mobile menu */}
         <div className={`${mobile ? '' : 'hidden '} md:hidden`}>
-          <a
-            href="#"
+          <Link
+            href="/"
             className="block py-2 px-4 text-sm hover:bg-gray-200"
             onClick={handleMobile}
           >
-            Features
-          </a>
-          <a
-            href="#"
+            Home
+          </Link>
+          <Link
+            href="/SideNavbarPage"
             className="block py-2 px-4 text-sm hover:bg-gray-200"
             onClick={handleMobile}
           >
-            Pricing
-          </a>
+            SideNavbarPage
+          </Link>
         </div>
       </nav>
 
