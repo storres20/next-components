@@ -69,7 +69,7 @@ export default function Navbar() {
 
             {/* mobile button goes here */}
             <div className="md:hidden flex items-center" onClick={handleMobile}>
-              <button>
+              <button aria-label="button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

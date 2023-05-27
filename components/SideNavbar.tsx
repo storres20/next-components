@@ -20,6 +20,7 @@ export default function SideNavbar() {
         <button
           className="p-4 focus:outline-none focus:bg-gray-700"
           onClick={handleMobile}
+          aria-label="button"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Button2 from '@/components/IconButton/Button2'
 import Navbar from '@/components/Navbar'
