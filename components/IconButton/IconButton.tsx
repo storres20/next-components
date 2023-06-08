@@ -28,7 +28,10 @@ export default function IconButton({
         style={{ width: hovered ? ref.current?.offsetWidth || 0 : 0 }}
         className="overflow-x-hidden transition-all duration-300 ease-out"
       >
-        <span ref={ref} className="px-1.5 font-bold">
+        <span
+          ref={ref}
+          className="px-1.5 font-bold"
+        >
           {text}
         </span>
       </div>

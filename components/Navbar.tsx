@@ -56,7 +56,10 @@ export default function Navbar() {
             </div>
             {/* secundary nav */}
             <div className="hidden md:flex items-center space-x-1">
-              <a href="#" className="py-5 px-3">
+              <a
+                href="#"
+                className="py-5 px-3"
+              >
                 Login
               </a>
               <a
@@ -68,7 +71,10 @@ export default function Navbar() {
             </div>
 
             {/* mobile button goes here */}
-            <div className="md:hidden flex items-center" onClick={handleMobile}>
+            <div
+              className="md:hidden flex items-center"
+              onClick={handleMobile}
+            >
               <button aria-label="button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

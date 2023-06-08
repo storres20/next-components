@@ -13,7 +13,10 @@ export default function SideNavbar() {
       {/* mobile menu bar */}
       <div className="bg-gray-800 text-gray-100 flex justify-between md:hidden">
         {/* logo */}
-        <a href="#" className="block p-4 text-white font-bold">
+        <a
+          href="#"
+          className="block p-4 text-white font-bold"
+        >
           Better Dev
         </a>
         {/* mobile menu button */}
@@ -45,7 +48,10 @@ export default function SideNavbar() {
         } bg-blue-800 text-blue-100 w-64 space-y-6 py-7 px-2 absolute inset-y-0 left-0 transform md:relative md:translate-x-0 transition duration-200 ease-in-out`}
       >
         {/* logo */}
-        <a href="#" className="text-white flex items-center space-x-2 px-4">
+        <a
+          href="#"
+          className="text-white flex items-center space-x-2 px-4"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
